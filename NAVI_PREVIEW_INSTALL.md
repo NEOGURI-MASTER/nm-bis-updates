@@ -1,35 +1,42 @@
-# NM-BIS NAVI PREVIEW : 휴대폰 및 태블릿 설치
+# NM-BIS NAVI PREVIEW — 6.7.46 기반 업데이트
 
-## 다운로드
+**새 시험판 업데이트 가능 · Android 휴대폰 및 태블릿 공용**
 
-**[NAVI PREVIEW APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_cbe036c282ee.apk)**
+## 최신 NAVI PREVIEW 설치
 
-- 설치 상태: 로그인·기기관리 + GM-1009 16정류장 개략도 시안 시험판
-- 정식 NM-BIS와 별도 설치 가능
-- 안드로이드 휴대폰과 태블릿 공용
-- 패키지: kr.co.nugurimotors.nmbis.navpreview
-- 파일 크기: 17.3 MiB
-- SHA-256: cbe036c282ee3b23bdf70d33dff48d2c13f06dfe28440652aa8fff58236cd320
+**[NAVI PREVIEW 6.7.46 기반 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_cbe036c282ee.apk)**
 
-## 예전 NAVI PREVIEW가 이미 설치된 경우
+- 기반 정식 시험판: **NM-BIS 6.7.46-TEST / 빌드 164**
+- NAVI PREVIEW 앱 버전: **6.7.46-NAVI-PREVIEW**
+- 패키지: `kr.co.nugurimotors.nmbis.navpreview` (정식 NM-BIS와 별도 설치)
+- 용량: 약 **17.3MB**
+- SHA-256: `cbe036c282ee3b23bdf70d33dff48d2c13f06dfe28440652aa8fff58236cd320`
+- [GitHub APK 빌드·서명·공개 파일 검증 완료](https://github.com/NEOGURI-MASTER/nm-bis/actions/runs/40352991492)
 
-1. NM-BMS → 사용자/기기 → 등록기기에서 오래된 시험판 기기를 등록 해제합니다.
-2. 휴대폰에서 NAVI PREVIEW 시험판 앱만 삭제합니다. 정식 NM-BIS는 삭제하지 마세요.
-3. 다음 새 APK 설치 후 성명+생년월일로 로그인하면 기기가 재등록됩니다.
+## 이미 NAVI PREVIEW가 설치된 경우
 
-## 설치 및 로그인
+기존 설치된 APK가 **고정 서명 버전**이면 삭제할 필요가 없습니다. 새 파일을 내려받은 후 설치를 눌러 **업데이트**하세요.
 
-1. APK 다운로드 링크를 누릅니다.
-2. 파일을 열고 허용된 출처에서 설치를 승인합니다.
-3. NAVI PREVIEW 앱 실행 후 관리자가 등록한 성명과 생년월일(YYYYMMDD)을 입력합니다.
-4. 승무사원 1명당 3대까지 자동등록, 4번째부터 관리자 승인 요청됩니다.
+- 고정 서명 검증 완료
+- 이전 NAVI PREVIEW 빌드 versionCode 1000026 → 이번 빌드 1000033
+- 기존 로그인/기기등록 정보는 업데이트로 유지됩니다.
+- **정식 NM-BIS를 삭제하거나 업데이트하지 않습니다.**
 
-## 중요한 주의
+만약 사용 중인 앱이 아주 오래된 **임시 디버그 서명 버전**이라 서명 불일치 오류가 나면, 그때만 NM-BMS 관리자에게 등록기기 처리를 확인한 후 시험판 앱만 재설치해야 합니다.
 
-- 정류장 위치 개략도는 실제 도로경로가 아니며 TMAP 내비게이션 음성 길안내는 아직 포함되지 않았습니다.
-- 승객TV 및 안내방송 실제 운행용으로 사용하지 마세요.
-- 기존 NM-BIS 앱과 기존 자동 업데이트를 변경하거나 삭제하지 않습니다.
-- 새 APK는 고정 서명으로 검증됩니다. 다만 이전 디버그 서명 NAVI PREVIEW 앱은 한 번 삭제 후 재설치해야 합니다.
-- 새 시험판 APK의 다운로드를 누구나 할 수 있어도 등록된 계정만 로그인할 수 있습니다.
+## 이번에 달라진 점
 
-개발/테스트 지원: NM-BMS 관리자페이지의 NM-BIS 사용자/기기 메뉴
+- 오래된 6.7.37 기반을 **검증된 6.7.46 소스**로 교체
+- 최근 기사 화면 개편과 휴대폰 가로/세로 메뉴 구성 반영
+- 다크/라이트 테마 및 승객 TV 관련 UI 기능 기반 동기화
+- 로그인 및 기본 3대 등록·관리자 예외 승인 유지
+- **내비 시안** 메뉴와 GM-1009 16개 정류장 위치 개략도 유지
+
+## 안전 주의
+
+- 정류장 위치 개략도는 도로 길안내가 아닙니다. **TMAP Navi SDK 실제 음성 길안내는 아직 없습니다.**
+- 기존 NM-BIS 정식 앱과 NAVI PREVIEW를 동일한 차량 TV/오디오에 동시에 연결하지 마세요.
+- 승객TV·방송·DeX 호환성을 실차에서 검증하기 전까지 **실제 승객 운행에 사용하지 마세요.**
+- Play 프로텍트 등 설치 보안 경고가 계속 나타나면 무리한 우회 대신 관리자에게 알려주세요.
+
+이 안내 페이지의 URL은 고정되어 있어, **기존 QR코드를 그대로 사용할 수 있습니다.**
