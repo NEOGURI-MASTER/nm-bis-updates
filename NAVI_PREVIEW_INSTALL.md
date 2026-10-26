@@ -2,14 +2,14 @@
 
 ## 다운로드
 
-**[NAVI PREVIEW APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_7399efbb07c7.apk)**
+**[NAVI PREVIEW APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_cbe036c282ee.apk)**
 
 - 설치 상태: 로그인·기기관리 + GM-1009 16정류장 개략도 시안 시험판
 - 정식 NM-BIS와 별도 설치 가능
 - 안드로이드 휴대폰과 태블릿 공용
 - 패키지: kr.co.nugurimotors.nmbis.navpreview
-- 파일 크기: 17.2 MiB
-- SHA-256: 7399efbb07c7c119e3be9b4cf73d2cadd1d900f3655d1968aedf195ee0950501
+- 파일 크기: 17.3 MiB
+- SHA-256: cbe036c282ee3b23bdf70d33dff48d2c13f06dfe28440652aa8fff58236cd320
 
 ## 예전 NAVI PREVIEW가 이미 설치된 경우
 
