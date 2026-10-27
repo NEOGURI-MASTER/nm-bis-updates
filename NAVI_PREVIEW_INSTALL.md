@@ -1,21 +1,21 @@
 # NM-BIS NAVI PREVIEW — 카카오 지도/태블릿 수정판
 
-**최신 시험 APK: 6.7.46-NAVI-PREVIEW / 빌드 #1000063**
+**최신 시험 APK: 6.7.46-NAVI-PREVIEW / 빌드 #1000070**
 
 ## 다운로드
 
-**[NAVI PREVIEW 최신 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_6f3ebafcf8dc.apk)**
+**[NAVI PREVIEW 최신 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_69334f7a96a9.apk)**
 
 - 독립 시험판 패키지: `kr.co.nugurimotors.nmbis.navpreview`
-- 파일 크기: 17.3 MiB
-- SHA-256: `6f3ebafcf8dccadd9245fc13151ca8723cec21ae7156d9e8bc81042a7cb64d75`
+- 파일 크기: 17.4 MiB
+- SHA-256: `69334f7a96a9a4481a5bf9fe0c1592100521d90545a218136c0d074f6dd6c098`
 - [최신 자동 빌드 검증 내역](https://github.com/NEOGURI-MASTER/nm-bis/actions/workflows/navi-preview-build.yml)
 
 ## 기존 NAVI PREVIEW가 설치되어 있으면
 
 1. **기존 NAVI PREVIEW 앱을 삭제하지 마세요. NM-BMS 기기 등록도 해제하지 마세요.**
 2. 위의 APK를 내려받아 기존 NAVI PREVIEW 앱 위에 업데이트 설치합니다.
-3. 앱 실행 후 좌측 하단 빌드번호가 **#1000063**인지 확인합니다.
+3. 앱 실행 후 좌측 하단 빌드번호가 **#1000070**인지 확인합니다.
 4. 내비 시안 → 실제 지도에서 지도 타일·정류장 마커를 확인합니다. 개략도 전환도 시험합니다.
 5. 고정 서명이 일치하는 APK라면 로그인/기기 등록 정보가 유지됩니다.
 
