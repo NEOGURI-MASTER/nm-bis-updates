@@ -1,35 +1,32 @@
-# NM-BIS NAVI PREVIEW : 휴대폰 및 태블릿 설치
+# NM-BIS NAVI PREVIEW — 카카오 지도 및 GPS 시험판
 
-## 다운로드
+## 신규 APK 다운로드
 
-**[NAVI PREVIEW APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_ea09296d1340.apk)**
+**[NAVI PREVIEW 실제 지도/GPS 시험판 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_ea09296d1340.apk)**
 
-- 설치 상태: 로그인·기기관리 + GM-1009 16정류장 개략도 시안 시험판
-- 정식 NM-BIS와 별도 설치 가능
-- 안드로이드 휴대폰과 태블릿 공용
-- 패키지: kr.co.nugurimotors.nmbis.navpreview
-- 파일 크기: 17.3 MiB
-- SHA-256: ea09296d134089bffea1bab89230c33b98c0288f98d0296dbb06ccfd958a3e9a
+- 기반: NM-BIS 6.7.46-TEST
+- 별도 패키지: `kr.co.nugurimotors.nmbis.navpreview`
+- 파일 크기 약 17.3 MiB
+- SHA-256: `ea09296d134089bffea1bab89230c33b98c0288f98d0296dbb06ccfd958a3e9a`
+- [빌드 및 고정서명 검증 성공](https://github.com/NEOGURI-MASTER/nm-bis/actions/runs/40364090907)
 
-## 예전 NAVI PREVIEW가 이미 설치된 경우
+## 이번 변경
 
-1. NM-BMS → 사용자/기기 → 등록기기에서 오래된 시험판 기기를 등록 해제합니다.
-2. 휴대폰에서 NAVI PREVIEW 시험판 앱만 삭제합니다. 정식 NM-BIS는 삭제하지 마세요.
-3. 다음 새 APK 설치 후 성명+생년월일로 로그인하면 기기가 재등록됩니다.
+- 카카오 실제 지도 배경에 정류장 마커 전체 표시
+- 현재 GPS 위치를 출발지 마커로 표시하고, 위치 권한 요청 버튼 제공
+- `노선 전체` · `내 위치` 및 `실제 지도/개략도` 전환
+- NM-BIS 실제 선택 노선/정류장 좌표 우선, 좌표 누락 시 경고
+- 휴대폰/태블릿 지원, 일반/다크 테마 유지
 
-## 설치 및 로그인
+## 설치 및 시험 순서
 
-1. APK 다운로드 링크를 누릅니다.
-2. 파일을 열고 허용된 출처에서 설치를 승인합니다.
-3. NAVI PREVIEW 앱 실행 후 관리자가 등록한 성명과 생년월일(YYYYMMDD)을 입력합니다.
-4. 승무사원 1명당 3대까지 자동등록, 4번째부터 관리자 승인 요청됩니다.
+1. 이미 고정 서명 NAVI PREVIEW를 설치했다면 **삭제하지 말고 업데이트 설치**합니다. 
+2. 실행 후 `내비 시안` 메뉴를 열고 `위치 권한 요청`이 보이면 위치를 허용합니다.
+3. 지도 위 GM-1009 정류장 16개, 현재위치, `노선 전체`, `내 위치`를 확인합니다.
+4. 카카오 지도가 로드되지 않으면 Kakao Developers에서 **JavaScript SDK 도메인 `https://appassets.androidplatform.net` 등록**을 다시 확인합니다.
 
-## 중요한 주의
+**주의:** 지도는 실제 카카오 지도이지만 파란·녹색 연결선은 **도로 경로가 아닌 정류장 간 직선**입니다. 음성 길안내·턴바이턴·실도로 주행 안내 기능은 아직 없습니다. 실제 차량 운행에는 사용하지 마세요.
 
-- 정류장 위치 개략도는 실제 도로경로가 아니며 TMAP 내비게이션 음성 길안내는 아직 포함되지 않았습니다.
-- 승객TV 및 안내방송 실제 운행용으로 사용하지 마세요.
-- 기존 NM-BIS 앱과 기존 자동 업데이트를 변경하거나 삭제하지 않습니다.
-- 새 APK는 고정 서명으로 검증됩니다. 다만 이전 디버그 서명 NAVI PREVIEW 앱은 한 번 삭제 후 재설치해야 합니다.
-- 새 시험판 APK의 다운로드를 누구나 할 수 있어도 등록된 계정만 로그인할 수 있습니다.
+기존 운영 NM-BIS는 삭제하거나 변경하지 마세요. NAVI PREVIEW와 운영 NM-BIS를 같은 TV/차량 오디오에 동시에 연결하지 마세요.
 
-개발/테스트 지원: NM-BMS 관리자페이지의 NM-BIS 사용자/기기 메뉴
+이 페이지는 기존 QR코드가 가리키는 고정 설치 안내 주소입니다.
