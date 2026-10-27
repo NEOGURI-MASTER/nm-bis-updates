@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "kr.co.nugurimotors.nmbis.navpreview",
-  "versionCode": 1000063,
+  "versionCode": 1000070,
   "versionName": "6.7.46-NAVI-PREVIEW",
-  "releaseNotes": "NAVI PREVIEW 자동 업데이트 기능 추가 및 배포 확인 개선\n- 앱 실행 시 현재/신규 버전 및 변경 내용을 확인하고 업데이트/나중에 선택\n- 운행 중 자동 설치 금지, 업데이트 보류\n- APK 파일 해시·서명·패키지·버전을 검증한 뒤 Android 설치 화면 호출\n- GitHub 배포 반영 지연 시 안전하게 재확인하고 정식 NM-BIS 채널과 분리\n- 기존 로그인 및 등록 기기 정보 유지",
-  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_6f3ebafcf8dc.apk",
-  "sha256": "6f3ebafcf8dccadd9245fc13151ca8723cec21ae7156d9e8bc81042a7cb64d75",
-  "sizeBytes": 18185662,
+  "releaseNotes": "NM-BIS NAVI 주행보기 1차 시험 기능\n- GPS 따라가기(현재 위치 중심), 수신된 속도(km/h) 및 이동방향 표시\n- GM-1009 16개 정류장의 다음 정류장 수동 전환 (안내방송 상태 변경 없음)\n- 카카오 지도 도로 형상 연동 화면 추가; 서버가 검증한 경로가 있을 때만 표시\n- 유료 도로 경로 API는 기본 비활성, 운행 중/자동/반복 호출 차단\n- 일반 자동차 경로의 버스 통행 제한 미검증, TMAP 음성 안내·재탐색 미연동\n- 기존 NAVI 로그인·기기등록·자동업데이트·일반/다크 모드 및 정식 NM-BIS 유지",
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_69334f7a96a9.apk",
+  "sha256": "69334f7a96a9a4481a5bf9fe0c1592100521d90545a218136c0d074f6dd6c098",
+  "sizeBytes": 18202046,
   "minSdk": 26
 }
