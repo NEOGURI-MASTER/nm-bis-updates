@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "packageName": "kr.co.nugurimotors.nmbis.navpreview",
+  "versionCode": 1000062,
+  "versionName": "6.7.46-NAVI-PREVIEW",
+  "releaseNotes": "NAVI PREVIEW 앱 내 자동 업데이트 기능 추가\n- 실행 시 최신 버전 확인 및 현재/신규 버전과 변경 내용 표시\n- 업데이트 또는 나중에 선택 가능\n- APK SHA-256, 패키지명, 버전, 기존 앱 서명 일치 확인 후 Android 설치 화면 호출\n- 운행 중 업데이트 보류 및 기존 로그인/등록기기 유지\n- NM-BIS 정식 앱 업데이트 채널과 완전히 분리",
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_038a2d0ff358.apk",
+  "sha256": "038a2d0ff358df5e1734a3bb872d595e5eb21cef6b36c718a39fae882617d5c2",
+  "sizeBytes": 18185662,
+  "minSdk": 26
+}
