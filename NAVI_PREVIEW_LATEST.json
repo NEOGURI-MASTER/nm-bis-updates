@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "kr.co.nugurimotors.nmbis.navpreview",
-  "versionCode": 1000088,
+  "versionCode": 1000090,
   "versionName": "6.7.46-NAVI-PREVIEW",
-  "releaseNotes": "NM-BIS NAVI 길안내 모의 상태 테스트·배포검증 개선\n- TMAP 준비 점검에서 모의 상태 테스트로 전환 가능, 실제 길안내/음성/요금 발생 없음\n- 가상 우회전·안내방송 우선·이탈·수동 재탐색 차단을 눈으로 확인하는 개발 시험 UI 추가\n- 정상 지도·GPS 따라가기·16개 정류장·안내방송·기기 등록 유지\n- GitHub 최신 버전 JSON의 CDN 지연 문제를 변경 불가능한 Git 커밋 주소로 독립 확인하도록 보완\n- 실제 TMAP Navi SDK 인증과 대형버스 도로 제약 검증 전까지 주행안내 OFF\n- 기존 정식 NM-BIS와 별도 NAVI 자동 업데이트 채널 유지",
-  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_decc4a2f82e4.apk",
-  "sha256": "decc4a2f82e4f71f8f32ef2f83fe312cb1a072934d55e6873b5644e7e5b7f3b5",
-  "sizeBytes": 18218430,
+  "releaseNotes": "NM-BIS NAVI TMAP Navi·ETA 공통 연동 기반\n- Navi/ETA SDK의 실제 경로·회전·ETA 이벤트를 처리할 공통 입력 규칙과 인증/세션 유효성 검사 추가\n- 경로/정류장 수 불일치, 오래된 이벤트, 잘못된 세션, 대형버스 제한 미검증 안내를 자동 차단\n- TMAP 길안내 준비 점검에서 두 SDK가 아직 미설치·미인증 상태임을 명확하게 표시\n- 실제 SDK 라이선스·경로 제한 승인 전에는 유료 호출·재탐색·턴바이턴·음성 안내 비활성 유지\n- 기존 카카오 지도·GPS/정류장·안내방송·기기 등록·자동 업데이트 및 정식 NM-BIS 유지",
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_e75ecaafdd9f.apk",
+  "sha256": "e75ecaafdd9ff7576b83c2a211b132d8a5603e51965168640c57a6a21738049e",
+  "sizeBytes": 18234814,
   "minSdk": 26
 }
