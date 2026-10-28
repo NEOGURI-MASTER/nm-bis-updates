@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "kr.co.nugurimotors.nmbis.navpreview",
-  "versionCode": 1000092,
+  "versionCode": 1000095,
   "versionName": "6.7.46-NAVI-PREVIEW",
-  "releaseNotes": "NM-BIS NAVI 노선 데이터·좌표 검수 기능 추가\n- NM-BIS 실제 노선 정류장의 누락 좌표 원본 순서와 정류장 이름을 보존하여 점검 결과에 표시\n- TMAP 준비 점검 안의 선택 노선 좌표 검수 팝업에서 원본·유효 좌표 개수, 차단·검토 항목 확인\n- GM-1009 시범 좌표는 실제 운행 승인 전까지 차단으로 표시\n- 빈 정류장명·누락 좌표·순서 오류는 차단, 인접 중복 좌표·긴 시외 구간은 관리자 확인 항목으로 표시\n- 경로 데이터를 자동 변경하지 않으며 기존 지도 높이·GPS·안내방송·기기등록·자동 업데이트 유지\n- TMAP Navi/ETA SDK·대형버스 통행 제한 미검증으로 실제 주행 안내·음성은 계속 비활성",
-  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_090791ca4e87.apk",
-  "sha256": "090791ca4e8750a98033a6648855028cae3143dac5b3460dee368b553a2d7c47",
+  "releaseNotes": "NM-BIS NAVI 노선 데이터·좌표 검수 기능 추가\n- NM-BIS 실제 노선 정류장의 누락 좌표 원본 순서와 정류장 이름을 보존하여 점검 결과에 표시\n- TMAP 준비 점검 안의 선택 노선 좌표 검수 팝업에서 원본·유효 좌표 개수, 차단·검토 항목 확인\n- GM-1009 시범 좌표는 실제 운행 승인 전까지 차단으로 표시\n- 빈 정류장명·누락 좌표·순서 오류는 차단, 인접 중복 좌표·긴 시외 구간은 관리자 확인 항목으로 표시\n- 경로 데이터를 자동 변경하지 않으며 기존 지도 높이·GPS·안내방송·기기등록·자동 업데이트 유지\n- TMAP Navi/ETA SDK·대형버스 통행 제한 미검증으로 실제 주행 안내·음성은 계속 비활성\n- 좌표 누락으로 화면상 정류장 번호가 조정되어도 원본 NM-BIS 정류장 순번은 별도로 보존\n- 동일한 원본 순서 중복·누락 정류장과의 번호 충돌을 검수 차단으로 표시\n- 중간 정류장의 좌표가 없어도 이후 정류장의 이름·좌표·거리 검수 결과를 원본 순번으로 정확히 표시",
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_27d1f489d00c.apk",
+  "sha256": "27d1f489d00cfe3aa21c61d0cb134dfbf1d2fb1bcee99fe661a75f55d4b5a25e",
   "sizeBytes": 18234814,
   "minSdk": 26
 }
