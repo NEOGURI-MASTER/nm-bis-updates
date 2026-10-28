@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "kr.co.nugurimotors.nmbis.navpreview",
-  "versionCode": 1000082,
+  "versionCode": 1000084,
   "versionName": "6.7.46-NAVI-PREVIEW",
-  "releaseNotes": "NM-BIS NAVI 3단계: TMAP 길안내 연동 준비·안전 점검\n- NAVI 화면에 TMAP 길안내 준비 상태와 누락된 SDK/차량 제원/버스 도로 제한을 확인하는 접기식 점검창 추가\n- 삼성 태블릿·DeX의 기존 지도 영역 보호를 위해 점검창 높이를 제한\n- 현재 GPS와 남은 정류장 16개 순서를 유지하는 요청 계획, 좌표 누락·GPS 정확도 검사 추가\n- 추후 SDK 연결에 대비한 회전 안내·경로 이탈·재탐색 이벤트 처리와 안내방송 우선 음성 정책 준비\n- TMAP SDK 계약/인증·버스 통행 제한 검증 전 실제 길안내와 음성안내는 계속 비활성\n- 기존 NAVI 카카오 지도·GPS 따라가기·안내방송·기기 등록·자동 업데이트 유지, 정식 NM-BIS 무변경",
-  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_33f90c44debd.apk",
-  "sha256": "33f90c44debd02141bfa7e60368ff1a57c5b42b419fe8c4016ff3b6a440a6855",
+  "releaseNotes": "NM-BIS NAVI 지도 공간 개선 및 TMAP 점검창 정리\n- TMAP 길안내 준비 점검을 별도 팝업으로 표시해 삼성 태블릿·DeX 지도 높이 유지\n- 준비 점검에서 SDK 계약/버스 통행 제한/차량 제원 등 누락 사유를 모두 표시\n- 팝업 닫기를 누르면 기존 지도와 정류장·GPS 화면으로 복귀\n- NAVI 3단계 회전 안내·경로 이탈·재탐색 안전 정책은 기존대로 유지\n- 실제 TMAP 음성 길안내는 라이선스·대형버스 경로 검증 전까지 비활성\n- 기존 안내방송·기기 등록·자동 업데이트 및 NM-BIS 정식 앱은 변경하지 않음",
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_0077062df7ac.apk",
+  "sha256": "0077062df7acefe3ae2c30f2af30e239fc8e861b7395d6325611683da160b222",
   "sizeBytes": 18218430,
   "minSdk": 26
 }
