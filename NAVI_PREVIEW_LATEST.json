@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "kr.co.nugurimotors.nmbis.navpreview",
-  "versionCode": 1000090,
+  "versionCode": 1000092,
   "versionName": "6.7.46-NAVI-PREVIEW",
-  "releaseNotes": "NM-BIS NAVI TMAP Navi·ETA 공통 연동 기반\n- Navi/ETA SDK의 실제 경로·회전·ETA 이벤트를 처리할 공통 입력 규칙과 인증/세션 유효성 검사 추가\n- 경로/정류장 수 불일치, 오래된 이벤트, 잘못된 세션, 대형버스 제한 미검증 안내를 자동 차단\n- TMAP 길안내 준비 점검에서 두 SDK가 아직 미설치·미인증 상태임을 명확하게 표시\n- 실제 SDK 라이선스·경로 제한 승인 전에는 유료 호출·재탐색·턴바이턴·음성 안내 비활성 유지\n- 기존 카카오 지도·GPS/정류장·안내방송·기기 등록·자동 업데이트 및 정식 NM-BIS 유지",
-  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_e75ecaafdd9f.apk",
-  "sha256": "e75ecaafdd9ff7576b83c2a211b132d8a5603e51965168640c57a6a21738049e",
+  "releaseNotes": "NM-BIS NAVI 노선 데이터·좌표 검수 기능 추가\n- NM-BIS 실제 노선 정류장의 누락 좌표 원본 순서와 정류장 이름을 보존하여 점검 결과에 표시\n- TMAP 준비 점검 안의 선택 노선 좌표 검수 팝업에서 원본·유효 좌표 개수, 차단·검토 항목 확인\n- GM-1009 시범 좌표는 실제 운행 승인 전까지 차단으로 표시\n- 빈 정류장명·누락 좌표·순서 오류는 차단, 인접 중복 좌표·긴 시외 구간은 관리자 확인 항목으로 표시\n- 경로 데이터를 자동 변경하지 않으며 기존 지도 높이·GPS·안내방송·기기등록·자동 업데이트 유지\n- TMAP Navi/ETA SDK·대형버스 통행 제한 미검증으로 실제 주행 안내·음성은 계속 비활성",
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_090791ca4e87.apk",
+  "sha256": "090791ca4e8750a98033a6648855028cae3143dac5b3460dee368b553a2d7c47",
   "sizeBytes": 18234814,
   "minSdk": 26
 }
