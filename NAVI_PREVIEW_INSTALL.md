@@ -1,14 +1,14 @@
 # NM-BIS NAVI PREVIEW — 카카오 코어 전체 노선 시험판
 
-**최신 시험 APK: 6.7.46-NAVI-PREVIEW / 빌드 #1000104**
+**최신 시험 APK: 6.7.46-NAVI-PREVIEW / 빌드 #1000105**
 
 ## 다운로드
 
-**[NAVI PREVIEW 최신 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_efb66578c35b.apk)**
+**[NAVI PREVIEW 최신 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_d80672e21528.apk)**
 
 - 독립 시험판 패키지: `kr.co.nugurimotors.nmbis.navpreview`
 - 파일 크기: 80.2 MiB
-- SHA-256: `efb66578c35b0b43d4adaed12ab59ce39ea5cb715d58ea108f8b2ae9b1e2b230`
+- SHA-256: `d80672e2152891b01beefcda83d85c0b126f98675774d2cc5d2c100c3344449a`
 - [최신 자동 빌드 검증 내역](https://github.com/NEOGURI-MASTER/nm-bis/actions/workflows/navi-preview-build.yml)
 
 **카카오 코어 최초 전환:** 종전 NAVI의 48MB 제한으로 이번 APK를 자동으로 받지 못하면 위 다운로드 링크로 직접 업데이트 설치해 주세요. 새 버전 설치 후에는 자동업데이트 기능을 다시 이용할 수 있습니다.
@@ -17,7 +17,7 @@
 
 1. **기존 NAVI PREVIEW 앱을 삭제하지 마세요. NM-BMS 기기 등록도 해제하지 마세요.**
 2. 위의 APK를 내려받아 기존 NAVI PREVIEW 앱 위에 업데이트 설치합니다.
-3. 앱 실행 후 좌측 하단 빌드번호가 **#1000104**인지 확인합니다.
+3. 앱 실행 후 좌측 하단 빌드번호가 **#1000105**인지 확인합니다.
 4. 내비 시안 → 카카오 연결 설정에서 패키지명·설치 앱 키 해시를 확인합니다.
 5. 고정 서명이 일치하는 APK라면 로그인/기기 등록 정보가 유지됩니다.
 
@@ -31,7 +31,8 @@
 3. 실제 노선을 선택하고 BIS 운행을 시작하지 않은 상태에서 내비 시안을 엽니다.
 4. 위치 권한·GPS 수신을 확인한 뒤 **전체 경로 확인**을 누릅니다.
 5. 전체 정류장 경로 응답을 확인한 뒤 **연속 모의주행**을 누릅니다.
-6. 정류장 순서·통과 개수와 마지막 목적지 도착을 확인합니다. 화면 종료 또는 종료 버튼으로 시험을 끝냅니다.
+6. 모의 위치 수신·이동 거리·다음 정류장까지의 거리와 통과 개수가 갱신되는지 확인합니다. 모의 속도는 120 km/h이며 표시되는 도로 예상 시간은 모의주행 소요 시간이 아닙니다.
+7. 마지막 목적지에서 **모의주행 완료**가 표시되는지 확인합니다. 중간에 끝내려면 **시험 중지**를 누릅니다.
 
 30개 초과 중간 경유지는 한 번의 전체 노선 입력으로 전달합니다. 실제 서버 수용과 기기에서의 완주는 별도로 확인해야 합니다.
 
