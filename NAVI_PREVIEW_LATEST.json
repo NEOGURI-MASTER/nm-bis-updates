@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "kr.co.nugurimotors.nmbis.navpreview",
-  "versionCode": 1000116,
+  "versionCode": 1000117,
   "versionName": "6.7.46-NAVI-PREVIEW",
   "releaseNotes": "5500-2 등록 노선 기준으로 전환\n- 출근 40개·퇴근 45개 지점을 경기버스정보의 방향별 노선선에 연결\n- 검토된 5500-2는 경유 지점 포함을 기본 선택\n- 등록 노선 모드는 자동차 경로 재탐색과 고속도로 경유 옵션 미사용\n- 카카오 지도에 전체 등록 노선 표시, 원본 정류장 좌표·순서 유지\n\n같은 노선선에서 연속 모의주행\n- 녹색 모의 위치가 등록 노선선을 따라 처음부터 끝까지 이동\n- 출근 중간 38개·퇴근 중간 43개 지점 순서대로 통과\n- 모의 위치 버튼으로 현재 모의 지점 확인\n- 완료 후 전체 노선과 구간 거리 유지\n- 중지·화면 종료·노선 변경 시 모의주행 종료\n\n거리 출처를 명확히 구분\n- 출근 노선선 약 42.13 km, 퇴근 약 43.69 km\n- 등록 노선선 기준 표시, 교통 예상시간 미제공\n- 구간 거리·거리 복사도 같은 등록 노선선에서 계산\n- 다른 노선과 정류장만 모드는 자동차 경로 시험으로 구분\n- 기존 NM-BIS 안내방송·승객 화면·로그인·기기 등록·카카오 앱 키 유지",
-  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_d5b315ec248b.apk",
-  "sha256": "d5b315ec248b59af694867407028d5a8275262ae5053d4aa53f366ac5c2c687f",
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_f6fa5e9aa673.apk",
+  "sha256": "f6fa5e9aa673fe27d3d8b9b364f6766ab9729f0a2ac4e6184016dfd72f6701ef",
   "sizeBytes": 84151818,
   "minSdk": 26
 }
