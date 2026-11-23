@@ -1,6 +1,6 @@
 # NM-BIS NAVI PREVIEW — 5-A 설치·검수 안내
 
-**최신 시험 APK: 6.7.46-NAVI-PREVIEW / 빌드 #1000177**
+**최신 시험 APK: 6.7.46-NAVI-PREVIEW / 빌드 #1000179**
 
 이번 배포는 운행시작과 연결된 2단계 길안내, 전체 노선도·정류장 목록을 유지하면서 **5-A 노선 데이터 검증·자가진단·SDK 모의주행·운행 기록**을 제공하는 NAVI PREVIEW입니다. **5-B 승차홈·시간표 작업은 시작하지 않았습니다.**
 
@@ -8,19 +8,19 @@
 
 ## 다운로드
 
-**[NAVI PREVIEW #1000177 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_8b2032d13868.apk)**
+**[NAVI PREVIEW #1000179 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_a106c4ea106e.apk)**
 
-- 파일명: `NM_BIS_NAVI_PREVIEW_LOGIN_8b2032d13868.apk`
+- 파일명: `NM_BIS_NAVI_PREVIEW_LOGIN_a106c4ea106e.apk`
 - 독립 시험판 패키지: `kr.co.nugurimotors.nmbis.navpreview`
-- 파일 크기: **84,737,756 bytes (약 80.8 MiB)**
-- SHA-256: `8b2032d138682f86f798b153b47ae2d7fabc777a604e68f0630e5c4ffbe221d6`
+- 파일 크기: **84,782,902 bytes (약 80.9 MiB)**
+- SHA-256: `a106c4ea106e95a49ab228a919251c5121e6674a0e73922c97de038355f15c02`
 - [최신 자동 빌드 검증 내역](https://github.com/NEOGURI-MASTER/nm-bis/actions/workflows/navi-preview-build.yml)
 
 ## 기존 NAVI PREVIEW가 설치되어 있으면
 
 1. **기존 NAVI PREVIEW 앱을 삭제하지 마세요. NM-BMS 기기 등록도 해제하지 마세요.**
 2. 위 APK를 내려받아 **기존 NAVI PREVIEW 앱 위에 업데이트 설치**합니다.
-3. 앱 실행 후 좌측 하단 빌드번호가 **#1000177**인지 확인합니다.
+3. 앱 실행 후 좌측 하단 빌드번호가 **#1000179**인지 확인합니다.
 4. 기존 로그인·기기 등록 상태가 유지되는지 확인합니다. 고정 서명이 일치하는 업데이트 APK는 기존 앱 데이터에 설치됩니다.
 5. **내비 시안 → 상태·설정 → 카카오 연결 설정**에서 이 설치 앱의 패키지명과 키 해시를 확인합니다.
 
@@ -40,7 +40,7 @@
 
 ## 먼저 확인할 범위
 
-| 구분 | #1000177 상태 |
+| 구분 | #1000179 상태 |
 | --- | --- |
 | 빌드·검증 기록 | 위 자동 빌드 검증 내역에서 해당 버전을 확인 |
 | 5-A 대상 23개 방향의 경유 지점 자료 | 23개 모두 적용; M6410 출근은 현재 GBIS 종점으로 갱신 |
