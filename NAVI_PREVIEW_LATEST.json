@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "kr.co.nugurimotors.nmbis.navpreview",
-  "versionCode": 1000183,
+  "versionCode": 1000184,
   "versionName": "6.7.46-NAVI-PREVIEW",
   "releaseNotes": "9차 PREVIEW — 정차 확인 후 정류장 변경 및 통근 운행 화면 개선\n- 시험 자료 미적용 안내, 지금 적용 바로가기, 확장 자료 없음 및 회차 미선택 표시.\n- 출근 개별 노선과 사업장 묶음 구분, 회차·사업장 순서, U-VIS 표시 번호 축약(전체 번호 검색 유지).\n- 정차 GPS 확인과 방송 종료 확인 후 출발 정류장 변경 및 앞쪽 정류장 건너뛰기. 기존 BIS 방송 세션과 순번을 보호하고 중복·역방송을 제한하며 변경 기록을 남깁니다.\n- 현재 경로의 SDK 사고·정체 표시 및 선택적으로 기존 ITS 사고 키 재사용. 표시만 하며 NAVI 무음, BIS 우선, 자동 우회 없음. 추가 유료 길찾기 REST 또는 서버 배포 없음.\n- 내비 시안 메뉴를 PREVIEW에서만 제거하고 환경 설정의 NAVI 관리·카카오 연결 설정 경로 유지.\n- SDK 일반 지점 명칭은 대응이 확인될 때 실제 지점명, 불확실할 때 다음 정류장으로 표시.\n- 일반 BIS 접근·도착 강조와 NAVI 전용 승차홈 GPS 도착 표시. 별도 fleet 방송 트리거는 실제 도착으로 바꾸지 않습니다.\n- 기존 167개 Android 검사와 신규 3개를 한 번의 최종 실행에서 검증하고 전체 통과 시에만 서명·공개합니다.\n- 실제 기기에서는 기준 ZIP 적용, 정차 후 순번 변경·방송, 카카오 SDK 명칭 로그, 교통정보 최신성·표본 구간, 태블릿/DeX 도착 표시 확인이 필요합니다.\n- 운영 앱·운영 시트·확정 기준 자료와 방송 엔진 정책은 유지.",
-  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_8b178a72eac6.apk",
-  "sha256": "8b178a72eac6bfcd5824de490dcefb8d6872fc4a429abb3c14460103349af36e",
-  "sizeBytes": 85348150,
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_e02130792990.apk",
+  "sha256": "e021307929901277db1a9c7cb3142445ec00f8e9ba5ea71f57de6ae2fa77d322",
+  "sizeBytes": 85397302,
   "minSdk": 26
 }
