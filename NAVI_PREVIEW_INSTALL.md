@@ -1,6 +1,6 @@
 # NM-BIS NAVI PREVIEW — 승차홈·시간표 설치·검수 안내
 
-**최신 시험 APK: 6.7.46-NAVI-PREVIEW / 빌드 #1000185**
+**최신 시험 APK: 6.7.46-NAVI-PREVIEW / 빌드 #1000186**
 
 이번 배포는 통근 자료 묶음·운영 복귀 기능을 유지하며 **자료 미적용 안내, 출근 개별 노선 구분, 정차 확인 후 정류장 변경, SDK 지점 명칭 대응, 사고·정체 및 도착 표시**를 시험하는 NAVI PREVIEW입니다. 실제 노선과 승차홈에는 별도로 전달받은 승인 자료를 사용합니다.
 
@@ -8,19 +8,19 @@
 
 ## 다운로드
 
-**[NAVI PREVIEW #1000185 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_9663ca7a7915.apk)**
+**[NAVI PREVIEW #1000186 APK 다운로드](https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_524a9dfea4bb.apk)**
 
-- 파일명: `NM_BIS_NAVI_PREVIEW_LOGIN_9663ca7a7915.apk`
+- 파일명: `NM_BIS_NAVI_PREVIEW_LOGIN_524a9dfea4bb.apk`
 - 독립 시험판 패키지: `kr.co.nugurimotors.nmbis.navpreview`
-- 파일 크기: **85,430,070 bytes (약 81.5 MiB)**
-- SHA-256: `9663ca7a79151204a7982f2a383002582a251260128b10819c1bb5e7448396e6`
+- 파일 크기: **85,544,815 bytes (약 81.6 MiB)**
+- SHA-256: `524a9dfea4bb6c11dba3ea4f5cdc529ad28f5528dc530df0d61a25643ca56688`
 - [최신 자동 빌드 검증 내역](https://github.com/NEOGURI-MASTER/nm-bis/actions/workflows/navi-preview-build.yml)
 
 ## 기존 NAVI PREVIEW가 설치되어 있으면
 
 1. **기존 NAVI PREVIEW 앱을 삭제하지 마세요. NM-BMS 기기 등록도 해제하지 마세요.**
 2. 운행을 종료하고 앱을 다시 열었을 때 **NM-BIS NAVI 업데이트**가 나타나면 **업데이트**를 누릅니다. 표시되지 않으면 위 APK를 내려받아 **기존 NAVI PREVIEW 앱 위에 업데이트 설치**합니다.
-3. 태블릿 화면의 좌측 하단 빌드번호가 **#1000185**인지 확인합니다. 화면이 좁아 번호를 찾기 어려우면 **환경 설정 → 통근 시험 자료**에 **시험 자료 묶음 적용 / 운영 자료로 돌아가기** 두 버튼이 있는지 확인합니다. 설정 화면의 버전명은 이전 PREVIEW와 같을 수 있습니다.
+3. 태블릿 화면의 좌측 하단 빌드번호가 **#1000186**인지 확인합니다. 화면이 좁아 번호를 찾기 어려우면 **환경 설정 → 통근 시험 자료**에 **시험 자료 묶음 적용 / 운영 자료로 돌아가기** 두 버튼이 있는지 확인합니다. 설정 화면의 버전명은 이전 PREVIEW와 같을 수 있습니다.
 4. 기존 로그인·기기 등록 상태가 유지되는지 확인합니다. 고정 서명이 일치하는 업데이트 APK는 기존 앱 데이터에 설치됩니다.
 5. **환경 설정 → 카카오 연결 설정**에서 이 설치 앱의 패키지명과 키 해시를 확인합니다.
 
@@ -40,7 +40,7 @@
 
 ## 먼저 확인할 범위
 
-| 구분 | #1000185 상태 |
+| 구분 | #1000186 상태 |
 | --- | --- |
 | 빌드·검증 기록 | 위 자동 빌드 검증 내역에서 해당 버전을 확인 |
 | 5-A 대상 23개 방향의 경유 지점 자료 | 23개 모두 적용; M6410 출근은 현재 GBIS 종점으로 갱신 |
