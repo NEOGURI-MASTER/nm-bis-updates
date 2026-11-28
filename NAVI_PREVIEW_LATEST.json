@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "kr.co.nugurimotors.nmbis.navpreview",
-  "versionCode": 1000186,
+  "versionCode": 1000187,
   "versionName": "6.7.46-NAVI-PREVIEW",
-  "releaseNotes": "NM-BIS NAVI PREVIEW #1000186 — 12차\n\n화면: 노선명 가나다순, UVIS 이름·출발 시각, 다크모드, 첫 정류장 기본 선택과 가까운 정류장 제안, 휴대전화 세로·가로 배치, 5초 지도 자동 복귀를 개선했습니다.\n방송: 출근 탑승 정류장 자동 방송 끄기가 기본 적용됩니다. 마지막 연속 사업장 정류장은 방송하며, 판단이 불명확하면 전체 방송을 유지합니다. 수동 방송은 유지됩니다.\n현장 자료: 기존 SDK 도로선을 기기에 저장하고, 실제 운행 기록에서 경유점·좌표 보정 후보를 만듭니다. 관리자 > 현장 보정 자료에서 검토·제외·수동 추가·CSV 내보내기를 사용할 수 있습니다.\n현장 GPS 자료는 기기에 저장되며 사용자가 내보내기를 선택할 때 공유됩니다. 앱은 운영 시트나 정류장 좌표를 자동으로 수정하지 않습니다.\n도로선 미리 받기와 추가 SDK 경로 요청은 없습니다. 실제 운행에서 아직 수집하지 않은 구간은 미확인 직선으로 표시됩니다.",
-  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_524a9dfea4bb.apk",
-  "sha256": "524a9dfea4bb6c11dba3ea4f5cdc529ad28f5528dc530df0d61a25643ca56688",
-  "sizeBytes": 85544815,
+  "releaseNotes": "NM-BIS NAVI PREVIEW #1000187 — 13차\n\n카카오 연결: 배포 APK의 기본 키를 사용하므로 새 기기에서도 별도 키 입력 없이 연결합니다. 기기에 저장한 키가 있으면 기존 키를 우선 사용합니다.\n지도 안내: 키 없음, 정확한 위치 권한, 인증 실패, GPS 신호 상태를 한국어로 표시합니다. 휴대전화에서 목록을 접어도 오류와 다시 시도가 보입니다.\n출근 방송: 사업장 확장 코드와 기흥캠퍼스·화성캠퍼스·DSR·SDR 별칭으로 하차 정류장을 보호합니다. 판정이 불명확하면 전체 방송을 유지합니다.\n퇴근 출발: 경로 순서 첫 승차홈을 기본 선택합니다. 다른 승차홈으로 바꾸면 이전 홈을 건너뛰고 뒤의 홈은 경유합니다. 승차홈은 방송하지 않습니다.\n노선 목록: 이름 안 숫자를 1, 2, …, 10 순서로 정렬합니다.\n기존 정류장 즉시 변경, 운행 중 자동 적용 보류, 현장 보정 자료, BIS 안내방송 우선·NAVI 무음 동작을 유지합니다.",
+  "apkUrl": "https://raw.githubusercontent.com/NEOGURI-MASTER/nm-bis-updates/navi-preview/NM_BIS_NAVI_PREVIEW_LOGIN_8c76246b1d57.apk",
+  "sha256": "8c76246b1d572d5a92d8cbea09627bfa14671dcbec35e29433c011d9f42b7492",
+  "sizeBytes": 85561199,
   "minSdk": 26
 }
